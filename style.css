@@ -1,0 +1,19 @@
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 1px solid black;
+    animation: delay 3s;
+    animation-name: box;
+    animation-duration: 25s;
+    animation-iteration-count:infinite;
+    margin-top: 300px;
+}
+@keyframes box{
+   from{} 
+   to{
+margin-left: 1400px;
+transform: rotate(360deg);
+transform: translateX(-50deg);
+}
+}
